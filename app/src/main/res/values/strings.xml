@@ -24,6 +24,6 @@
     <string name="notifications_title">Notifications</string>
 
     <!-- Machine IP Address -->
-    <string name="machine_ip_address">192.168.100.16</string>
+    <string name="machine_ip_address">192.168.43.12</string>
 
 </resources>

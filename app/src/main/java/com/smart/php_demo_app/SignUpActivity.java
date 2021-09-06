@@ -21,7 +21,6 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
-
 public class SignUpActivity extends AppCompatActivity {
 
     private TextInputEditText fname, lname, email, phone, confirm_password, id_editText, passwordEditText;

@@ -49,33 +49,25 @@ public class LoginActivity extends AppCompatActivity {
         mSignUp = findViewById(R.id.signup_textView);
         mProgress = findViewById(R.id.progress);
 
-
         mSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 startActivity(new Intent(LoginActivity.this,SignUpActivity.class));
-
             }
         });
-
-
 
         mSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-
                 Intent intent = new Intent(LoginActivity.this,HomeActivity.class);
                 intent.putExtra("email",mEmail.getText().toString());
                 startActivity(intent);
 
-                // signIn(mEmail.getText().toString(), mPassword.getText().toString());
+                 signIn(mEmail.getText().toString(), mPassword.getText().toString());
             }
         });
-
     }
-
 
     private void signIn( final String email, final String password) {
 

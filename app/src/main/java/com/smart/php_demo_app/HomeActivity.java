@@ -42,7 +42,7 @@ public class HomeActivity extends AppCompatActivity {
     private RecyclerView.Adapter mAdapter;
     private List<Product> products;
     private ProgressBar progressBar;
-    private static  final String BASE_URL = "http://192.168.100.16/android/getProducts.php";
+    private static  final String BASE_URL = "http://192.168.43.12/android/getProducts.php";
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
